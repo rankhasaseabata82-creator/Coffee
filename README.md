@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Corner Cup: Coffee Shop Management System
 
 Full-stack coffee shop app. Customers browse the menu, fill a cart and place orders. Staff sign in to manage the menu and move orders through Pending, Preparing, Ready and Collected.
@@ -17,7 +18,7 @@ The backend stores menu items and orders in the MongoDB database named `cornercu
 
 `server/.env`:
 - `MONGO_URI=mongodb://127.0.0.1:27017/cornercup` (required)
-- `REDIS_URL=` (optional Redis connection URL)
+- `REDIS_URL=` (optin URL)
 - `STAFF_PASSWORD=` staff login password
 - `JWT_SECRET=` long random secret for staff tokens
 - `CORS_ORIGIN=http://localhost:5173`
@@ -50,3 +51,4 @@ Staff routes need `Authorization: Bearer <token>` from `POST /api/auth/login {pa
 ## Important
 
 Do not commit `.env` files or real database credentials to GitHub. The supplied `.env.example` files contain placeholders only.
+=======
